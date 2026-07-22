@@ -36,6 +36,25 @@ Os modelos atingiram acurácia próxima de 100% na base principal, mas apresenta
 DATASET_ROOT = "/content/drive/MyDrive/SEU_CAMINHO_AQUI"
 ```
 
+## Estrutura de pastas esperada
+
+Os nomes dos arquivos são fixos no código, então, depois de baixar, renomeie os arquivos exatamente como abaixo antes de colocá-los em `DATASET_ROOT`:
+
+```
+DATASET_ROOT/
+├── Sugarcane.zip
+├── disease_folder.zip
+└── daphal_koli_v2.zip
+```
+
+No caso do `daphal_koli_v2.zip`, o notebook espera que, ao extrair, exista o seguinte caminho interno:
+
+```
+Sugarcane Leaf Disease Dataset/Sugarcane Leaf Disease Dataset.rar
+```
+
+Se a estrutura interna do zip vier diferente da origem, ajuste manualmente antes de rodar.
+
 ## Datasets utilizados
 
 Os três datasets são públicos e estão disponíveis nos links abaixo. Por questão de direitos autorais e tamanho, os arquivos de imagem não estão incluídos neste repositório.
