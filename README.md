@@ -23,7 +23,7 @@ Os modelos atingiram acurácia próxima de 100% na base principal, mas apresenta
 
 | Arquivo | Descrição |
 |---|---|
-| `tcc-cana-de-acucar` | Notebook completo com todo o pipeline: pré-processamento, treinamento, avaliação, diagnóstico de viés, Grad-CAM e validação externa |
+| `tcc-cana-de-acucar.ipynb` | Notebook completo com todo o pipeline: pré-processamento, treinamento, avaliação, diagnóstico de viés, Grad-CAM e validação externa |
 | `LICENSE` | Licença MIT |
 
 ## O que precisa para executar
