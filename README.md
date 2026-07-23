@@ -17,13 +17,13 @@ Além do desempenho tradicional (acurácia, precisão, recall, F1-score), o trab
 - Interpretação visual com Grad-CAM
 - Validação externa em duas bases de dados independentes
 
-Os modelos atingiram acurácia próxima de 100% na base principal, mas apresentaram queda expressiva de desempenho (entre 35 e 57 pontos percentuais) quando testados em imagens de outras fontes, o que reforça a importância de não confiar apenas em métricas internas ao avaliar modelos de visão computacional para uso agrícola real.
+Os modelos atingiram acurácia próxima de 100% na base principal, mas apresentaram queda expressiva de desempenho (entre 25,63 e 50,26 pontos percentuais) quando testados em imagens de outras fontes, o que reforça a importância de não confiar apenas em métricas internas ao avaliar modelos de visão computacional para uso agrícola real.
 
 ## Conteúdo do repositório
 
 | Arquivo | Descrição |
 |---|---|
-| `tcc_notebook.ipynb` | Notebook completo com todo o pipeline: pré-processamento, treinamento, avaliação, diagnóstico de viés, Grad-CAM e validação externa |
+| `tcc-cana-de-acucar` | Notebook completo com todo o pipeline: pré-processamento, treinamento, avaliação, diagnóstico de viés, Grad-CAM e validação externa |
 | `LICENSE` | Licença MIT |
 
 ## O que precisa para executar
